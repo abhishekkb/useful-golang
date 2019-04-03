@@ -5,7 +5,7 @@ import (
     "reflect"
 )
 
-
+// this kind of structure gives the flexibility of testing each service without the use of additional mocking frameworks
 
 
 type X struct{
