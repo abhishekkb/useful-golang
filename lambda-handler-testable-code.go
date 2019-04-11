@@ -17,7 +17,7 @@ func (x X) fx() {
 }
 
 //lambda.start function
-func some(f interface{}){
+func lambdastart(f interface{}){
     // what lambda.start internally does // stripped out all the additional logic
    handler := reflect.ValueOf(f)
     var args []reflect.Value
@@ -47,5 +47,5 @@ func main() {
     x:= X{}
     x.y.z.val = 10
     
-    some(x.fx) //lambda.start(handler)
+    lambdastart(x.fx) //lambda.start(handler)
 }
