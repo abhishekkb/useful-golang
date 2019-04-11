@@ -5,8 +5,8 @@ import (
     "reflect"
 )
 
-// this kind of structure gives the flexibility of testing each service without the use of 
-// additional mocking frameworks or passing interfaces to functions
+// this kind of structure gives the flexibility of testing each service without the use of additional mocking frameworks or 
+// passing interfaces to functions and keep the method ( or "functions" if you want to call it) signatures clean
 
 
 type X struct{
